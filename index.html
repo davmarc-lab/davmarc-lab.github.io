@@ -11,40 +11,43 @@
 </head>
 
 <body data-bs-theme="dark">
-    <div class="container-fluid d-flex m-0 p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top col-3">
-            <div class="container flex-column">
-                <a class="navbar-brand">
-                    <span class="h3 fw-bold d-block d-lg-none">Davide Marchetti</span>
-                    <a href="https://github.com/davmarc-lab" class="w-50 mb-3">
-                        <img class="d-lg-block d-none" src="assets/126174.jpg" alt="GitHub Profile Image">
-                    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top col-lg-3">
+        <div class="container-fluid flex-lg-column">
+            <a class="navbar-brand">
+                <span class="h3 fw-bold d-block d-lg-none">Davide Marchetti</span>
+                <a href="https://github.com/davmarc-lab" class="d-none d-lg-block w-50 mb-3">
+                    <img class="d-lg-block d-none rounded-circle" src="assets/126174.jpg" alt="GitHub Profile Image">
                 </a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav flex-column text-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#study">Study</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#social">Social</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-lg-column text-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#study">Study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#social">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <div class="col content mx-5">
+        </div>
+    </nav>
+    <div class="col content mx-5">
             <div class="card p-3 my-3">
                 <section id="home">
                     <header>
@@ -54,7 +57,7 @@
                         Hello I'm Davide, I was born in the 12/24/2001 in Italy and I like coding ??.
                     </p>
                 </section>
-                
+
             </div>
             <div class="card p-3 my-3">
                 <section id="study">
@@ -63,8 +66,12 @@
                     </header>
                     <p>
                         I'm studying Computer Science and Engeneering at University of Bologna in the campus of Cesena.
-                        In these year I studied a lot of things like computer graphics using OpenGL library using C++, 
-                        High Peformance Computing in MIMD and shared memory architecture, 
+                        In these year I studied a lot of things like computer graphics using OpenGL library using C++,
+                        High Peformance Computing in MIMD and shared memory architecture, Operative System where I 
+                        learn more about bash and since that moment I started using Arch as operating system.
+                        I also studied math, physics, algebra, Numerical Method.
+                        I'm currently studying Computer Vision in Python and when I have some free time I'm also 
+                        learning Rust.
                     </p>
                 </section>
             </div>
@@ -75,14 +82,27 @@
                         <caption>little cit. to Linkin Park</caption>
                     </header>
                     <p>
+                        I started learning Programming Languages in High School and started making some little things in C++.
+                        When I came to University I also studied Java then I did in a group project a game which emulates a simple
+                        Risiko game between 3 players.
                         
+                        After my little Java application I learned how to make a simple Game Engine using OpenGL library in C++,
+                        I made a game which is called "Kart".
+                        At the same time I attended High Performance Computing lessons acknowledging that this and Computer Graphics
+                        are very related and foundamental for a proper game.
+                        At that moment I started to get more interested in Linux and decided to make my own rice of Arch.
+                        I had already used Ubuntu before and read a beautiful book about bash called "The Linux Command Line", using my
+                        old and new knowledge I finally came up with a stable and usable operating system, stil not perfect.
+                        After I riced Arch, my mind wanted to change IDE and start using NeoVim, I really liked it so much that I customized
+                        NeoVim as well and I'm currently using it for literally everything. Even sometimes when I use Visual Studio Code I need
+                        that Vim plugin, can't stop myself using Vim motions.
                     </p>
                 </section>
             </div>
         </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
+</html>

@@ -5,14 +5,21 @@
 img {
     width: 100%;
     border: 5px solid orange;
-    border-radius: 50%;
 }
 
 img:hover {
     scale: 1.2;
 }
 
-@media (min-width: 300px) {
+.content {
+    margin-top: 5rem;
+}
+
+.navbar {
+    background-color: rgb(3, 63, 71);
+}
+
+@media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidebar-width);
