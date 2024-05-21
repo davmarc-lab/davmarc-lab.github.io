@@ -1,19 +1,37 @@
 :root {
     --navbar-color: rgba(3, 63, 71, 0.9);
     --sidebar-width: 300px;
+    --svg-icons-w-h: 64px;
 }
 
-img {
+img#profile {
     width: 100%;
     border: 5px solid orange;
 }
 
-img:hover {
+img#profile:hover {
     scale: 1.2;
+}
+
+img.social-img {
+    width: 15rem;
+}
+
+svg#icons {
+    width: var(--svg-icons-w-h);
+    height: var(--svg-icons-w-h);
 }
 
 .content {
     margin-top: 5rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.info-paste {
+    border: 1px solid gray;
 }
 
 .navbar {
