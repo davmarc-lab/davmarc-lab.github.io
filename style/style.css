@@ -38,6 +38,10 @@ ul, li {
     background-color: var(--navbar-color);
 }
 
+section#contact > a, section#social > a {
+    text-decoration: none;
+}
+
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
