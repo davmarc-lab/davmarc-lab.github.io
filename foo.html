@@ -8,7 +8,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style/foo-style.css">
-    <script src="script/modals.js"></script>
+    <!-- <script src="script/modals.js"></script> -->
+    <script type="text/javascript" src="script/mail.js"></script>
 
     <title>Portfolio - Davide Marchetti</title>
 </head>
@@ -58,7 +59,7 @@
                     <header>
                         <h2>Email</h2>
                     </header>
-                    <form action="#">
+                    <form method="post" id="mail-form">
                         <ul>
                             <li>
                                 <label for="name">Name</label>
@@ -74,7 +75,7 @@
                                     required></textarea>
                             </li>
                             <li>
-                                <input type="submit" value="Send">
+                                <input id="mail-submit" type="submit" value="Send">
                                 <input type="reset" value="Clear">
                             </li>
                         </ul>
