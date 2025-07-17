@@ -1,57 +1,9 @@
-:root {
-    --navbar-color: rgba(3, 63, 71, 0.9);
-    --sidebar-width: 300px;
-    --svg-icons-w-h: 64px;
+svg {
+    height: 40px;
+    width: 40px;
 }
 
-img#profile {
-    width: 100%;
-    border: 5px solid orange;
-}
-
-img#profile:hover {
-    scale: 1.2;
-}
-
-img.social-img {
-    width: 15rem;
-}
-
-svg#icons {
-    width: var(--svg-icons-w-h);
-    height: var(--svg-icons-w-h);
-}
-
-.content {
-    margin-top: 5rem;
-}
-
-ul, li {
-    list-style: none;
-}
-
-.info-paste {
-    border: 1px solid gray;
-}
-
-.navbar {
-    background-color: var(--navbar-color);
-}
-
-section#contact > a, section#social > a {
+a.icon-link {
     text-decoration: none;
 }
 
-@media (min-width: 992px) {
-    .navbar {
-        min-height: 100vh;
-        max-width: var(--sidebar-width);
-        background: linear-gradient(var(--navbar-color), var(--navbar-color));
-        background-size: cover;
-        background-position: center;
-    }
-
-    .content {
-        padding-left: var(--sidebar-width) !important;
-    }
-}
