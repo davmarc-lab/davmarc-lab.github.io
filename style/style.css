@@ -1,9 +1,23 @@
 svg {
-    height: 40px;
-    width: 40px;
+    height: 3rem;
+    width: 3rem;
 }
 
 a.icon-link {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item {
+    margin-top: 1.5rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
