@@ -12,47 +12,37 @@ export const Contact = () => {
         setTimeout(() => setCopied(false), 2000);
     };
 
-    const iconStyle = { fontSize: '1.2rem', minWidth: '24px' };
-    const rowStyle = { display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '1rem' };
-
     return (
-        <section id="contact" style={{ padding: '3rem 0' }}>
+        <section id="contact">
             <h2>Contact</h2>
-            <div style={{ marginTop: '1.5rem' }}>
-                <div style={rowStyle}>
-                    <FaEnvelope style={iconStyle} />
-                    <span>{email}</span>
+            <div className="contact-container">
+                {/* Email Row */}
+                <div className="contact-row">
+                    <FaEnvelope className="contact-icon" />
+                    <span className="contact-text">{email}</span>
                     <button
                         onClick={copyToClipboard}
-                        style={{
-                            background: 'none',
-                            border: 'none',
-                            cursor: 'pointer',
-                            color: copied ? '#42b883' : 'var(--text-color)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            padding: '5px'
-                        }}
+                        className={`copy-btn ${copied ? 'copied' : ''}`}
                         title="Copy to clipboard"
                     >
                         {copied ? <FaCheck /> : <FaCopy />}
                     </button>
                 </div>
 
-                <div style={rowStyle}>
-                    <FaGithub style={iconStyle} />
-                    <a href={`https://${github}`} target="_blank" rel="noreferrer">
-                        GitHub Profile
+                {/* Social Links */}
+                <div className="contact-row">
+                    <FaGithub className="contact-icon" />
+                    <a href={`https://${github}`} target="_blank" rel="noreferrer" className="contact-link">
+                        GitHub
                     </a>
                 </div>
 
-                <div style={rowStyle}>
-                    <FaLinkedin style={iconStyle} />
-                    <a href={`https://${linkedin}`} target="_blank" rel="noreferrer">
-                        LinkedIn Profile
+                <div className="contact-row">
+                    <FaLinkedin className="contact-icon" />
+                    <a href={`https://${linkedin}`} target="_blank" rel="noreferrer" className="contact-link">
+                        LinkedIn
                     </a>
                 </div>
-
             </div>
         </section>
     );

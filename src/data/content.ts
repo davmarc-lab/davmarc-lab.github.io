@@ -26,9 +26,9 @@ export const portfolioData: PortfolioData = {
         }
     ],
     contact: {
-        email: "davide@example.com",
+        email: "davidemarchetti01@gmail.com",
         github: "github.com/davmarc-lab",
-        linkedin: "linkedin.com/in/davmarc"
+        linkedin: "linkedin.com/in/davide-marchetti-0a093217b/"
     }
 };
 
