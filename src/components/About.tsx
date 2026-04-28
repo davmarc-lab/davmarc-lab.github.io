@@ -5,7 +5,7 @@ export const About = () => {
 
     return (
         <section id="about">
-            <h2>About</h2>
+            <h2>About Me</h2>
 
             <p className="about-bio-standalone">
                 {bio}

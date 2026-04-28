@@ -1,8 +1,22 @@
+export interface SkillItem {
+    name: string;
+    slug: string;
+}
+
+export interface Skills {
+    languages: SkillItem[];
+    frameworks: SkillItem[];
+    editors: SkillItem[];
+    os: SkillItem[];
+    utilities: SkillItem[];
+    notes: SkillItem[];
+}
+
 export interface Project {
     id: number;
     title: string;
     description: string;
-    link: string;
+    link?: string;
     isCurrent: boolean;
     tags: string[];
 }

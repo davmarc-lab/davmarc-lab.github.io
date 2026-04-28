@@ -1,4 +1,6 @@
-export const skills = {
+import type { Skills } from "../types";
+
+export const skills: Skills = {
     languages: [
         { name: "C++", slug: "cpp" },
         { name: "Java", slug: "java" },
