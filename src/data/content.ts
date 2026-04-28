@@ -1,27 +1,34 @@
-export const portfolioData = {
+import { type PortfolioData } from '../types';
+
+export const portfolioData: PortfolioData = {
     about: {
-        name: "Your Name",
-        education: "B.Sc. in Computer Science, University of X",
-        interests: ["Web Development", "UI/UX Design", "Open Source"],
-        bio: "I am a developer focused on building clean and functional web applications."
+        name: "Davide",
+        education: "Computer Science",
+        interests: ["React", "TypeScript", "UI Design"],
+        bio: "Building clean, automated web experiences."
     },
     projects: [
         {
-            title: "Current Project Name",
-            description: "A brief description of what you are working on right now.",
-            link: "https://github.com/yourusername/project",
-            status: "current"
+            id: 1,
+            title: "Portfolio Lab",
+            description: "A modular React portfolio with automated CI/CD.",
+            link: "https://github.com/davmarc-lab/davmarc-lab.github.io",
+            isCurrent: true,
+            tags: ["React", "Vite", "GitHub Actions"]
         },
         {
+            id: 2,
             title: "Older Project Name",
             description: "A description of a completed project.",
             link: "https://github.com/yourusername/old-project",
-            status: "older"
+            isCurrent: false,
+            tags: ["React", "Vite", "GitHub Actions"]
         }
     ],
     contact: {
-        email: "davidemarchetti01@gmail.com",
+        email: "davide@example.com",
         github: "github.com/davmarc-lab",
-        linkedin: "linkedin.com/in/yourusername"
+        linkedin: "linkedin.com/in/davmarc"
     }
 };
+
