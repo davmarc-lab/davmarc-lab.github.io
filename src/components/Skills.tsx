@@ -2,7 +2,7 @@ import { type SkillItem } from '../types';
 import { skills } from '../data/skills';
 
 const SkillGroup = ({ title, skills }: { title: string, skills: SkillItem[] }) => (
-    <div className="card about-mini-card">
+    <div className="about-mini-card">
         <span className="pane-label">{title}</span>
         <div className="skills-row">
             {skills.map(skill => (

@@ -25,8 +25,8 @@ export const portfolioData: PortfolioData = {
         },
         {
             id: 2,
-            title: "Augmented Reality System for Swarm Robotics",
-            description: "This project presents an Augmented Reality (AR) scene designed to visualize and monitor \
+            title: "Thesis — Augmented Reality System for Swarm Robotics",
+            description: "This thesis project presents an Augmented Reality (AR) scene designed to visualize and monitor \
                 swarm robotics in real-time. By utilizing ArUco markers to precisely define the arena's boundaries and \
                 spatial orientation, the system overlays virtual 3D meshes onto the physical robots. This integration \
                 allows for seamless tracking and data visualization, providing an intuitive interface to observe complex swarm \

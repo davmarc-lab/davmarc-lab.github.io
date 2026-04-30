@@ -22,7 +22,6 @@ export const ThemeToggle = () => {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: -10, opacity: 0 }}
                     transition={{ duration: 0.2 }}
-                    style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                 >
                     {isDark ? <FaSun /> : <FaMoon />}
                 </motion.div>

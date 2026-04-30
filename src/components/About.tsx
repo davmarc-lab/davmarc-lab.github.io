@@ -13,7 +13,7 @@ export const About = () => {
 
             <div className="about-cards-wrapper">
                 {/* Card 1: Education */}
-                <div className="card about-mini-card">
+                <div className="about-mini-card">
                     <span className="pane-label">Education</span>
                     <p className="pane-content">{education}</p>
                 </div>
@@ -22,7 +22,7 @@ export const About = () => {
                 <div className="vertical-divider-standalone" />
 
                 {/* Card 2: Interests */}
-                <div className="card about-mini-card">
+                <div className="about-mini-card">
                     <span className="pane-label">Interests</span>
                     <div className="skills-grid pane-content">
                         {interests.map(interest => (

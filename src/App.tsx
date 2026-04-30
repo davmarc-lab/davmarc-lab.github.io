@@ -27,7 +27,7 @@ function App() {
                 <Reveal><Contact /></Reveal>
             </main>
 
-            <footer style={{ textAlign: 'center', padding: '4rem 0', opacity: 0.5 }}>
+            <footer style={{ textAlign: 'center', padding: '2rem 0', opacity: 0.5 }}>
                 <p>© {new Date().getFullYear()} — davmarc-lab</p>
             </footer>
         </div>
