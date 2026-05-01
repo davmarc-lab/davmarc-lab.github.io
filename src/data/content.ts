@@ -4,7 +4,7 @@ export const portfolioData: PortfolioData = {
     about: {
         name: "Davide",
         education: "Bachelor’s Degree in Computer Science and Engineering — UniBo",
-        interests: ["React", "TypeScript", "UI Design"],
+        interests: ["CG", "HPC", "Backend", "Music", "Books"],
         bio: "I started learning Programming Languages in High School by making some little things in \
             C++. When I came to University I studied Java while working on a group project which emulates a \
             simple Risiko game between 3 players. After my little Java application I learned how to make a \
@@ -12,7 +12,7 @@ export const portfolioData: PortfolioData = {
             Computing lessons and learnt how to parallelize operations while managing critical ones. After that \
             I started making some REST API for basic gui and cli applications. I'm using \
             Arch as my operating system for 4 years always doing customization until I'll create my perfect \
-            environment."
+            environment. Also exploring new environments, like NixOS, learning new stuff day after day."
     },
     projects: [
         {

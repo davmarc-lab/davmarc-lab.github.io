@@ -14,14 +14,20 @@ export const skills: Skills = {
     ],
     frameworks: [
         { name: "Node.js", slug: "nodejs" },
-        { name: "Vite", slug: "vite" }
+        { name: "Vite", slug: "vite" },
+        { name: "Anaconda", slug: "anaconda" },
     ],
     editors: [
         { name: "NeoVim", slug: "neovim" },
-        { name: "VS Code", slug: "vscode" }
+        { name: "VS Code", slug: "vscode" },
+        { name: "Idea", slug: "idea" },
+        { name: "Rider", slug: "rider" },
+        { name: "Visual Studio", slug: "visualstudio" }
     ],
     os: [
         { name: "Linux", slug: "linux" },
+        { name: "Arch", slug: "arch" },
+        { name: "NixOS", slug: "nix" },
         { name: "Windows", slug: "windows" }
     ],
     utilities: [
@@ -30,8 +36,9 @@ export const skills: Skills = {
         { name: "Git", slug: "git" }
     ],
     notes: [
+        { name: "Latex", slug: "latex" },
+        { name: "Markdown", slug: "md" },
         { name: "Obsidian", slug: "obsidian" },
-        { name: "Latex", slug: "latex" }
     ]
 };
 
